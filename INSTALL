@@ -9,6 +9,15 @@ are permitted in any medium without royalty provided the copyright
 notice and this notice are preserved.  This file is offered as-is,
 without warranty of any kind.
 
+Requirements
+=================
+   For Debian / Ubuntu / Linux Mint:
+sudo apt-get install build-essential gcc g++ make cmake automake-1.15 'autoconf=2.69-*' autoconf-archive
+
+   For CentOS / Fedora / RHEL:
+sudo yum groupinstall 'Development Tools'
+sudo yum install gcc gcc-c++ make cmake automake autoconf autoconf-archive
+
 Basic Installation
 ==================
 
